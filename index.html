@@ -11,19 +11,27 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body id="gradient">
     <div class="container">
         <h1 class="title">Shopping List</h1>
         <h2>Get it done today</h2>
+
         <div class="input-group mb-3">
             <input id="userinput" class="form-control" type="text" placeholder="enter items" autofocus>
             <div class="input-group-append">
                 <button id="enter" class="btn btn-outline-secondary">Enter</button>
             </div>
         </div>
+
         <ul>
             <!-- Lista dinâmica -->
         </ul>
+
+        <div class="control-gradient mt-5">
+            <p class="small mb-0">To change the background-color, please choose two different colors bellow:</p>
+            <input type="color" class="color1" value="#ffc0cb">
+            <input type="color" class="color2" value="#baffba">
+        </div>
     </div>
 
     <script src="script.js"></script>

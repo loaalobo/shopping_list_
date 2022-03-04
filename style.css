@@ -3,16 +3,14 @@
 body {
     font-family: 'Hubballi', cursive;
     font-size: 18px;
+    background: linear-gradient(to right, #ffc0cb, #baffba);
 }
 
 .container {
     border: 1px solid black;
     padding: 20px;
-    margin-top: 20vh;
-}
-
-.title {
-    text-shadow: 0.5px 0.5px 4px rgba(0, 0, 0, 0.315);
+    margin-top: 3em;
+    background-color: rgb(255, 255, 255);
 }
 
 .done {
