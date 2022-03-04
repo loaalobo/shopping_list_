@@ -13,7 +13,8 @@ function addItem() {
         conteinerLista.appendChild(itemLista);
 
         let botaoDel = document.createElement('button');
-        botaoDel.appendChild(document.createTextNode('excluir'));
+        botaoDel.appendChild(document.createTextNode('x'));
+        botaoDel.classList.add('delete');
         itemLista.append(botaoDel);
 
         botaoDel.addEventListener('click', function () {
@@ -25,7 +26,7 @@ function addItem() {
         });
         input.value = '';
     }
-    else { alert('[erro]') }
+    else { alert("sorry... but first you need to add some item.") }
 }
 
 button.addEventListener('click', addItem); // callback function: automatically gets run
@@ -35,4 +36,3 @@ input.addEventListener('keypress', function (event) {
         addItem();
     }
 });
-F

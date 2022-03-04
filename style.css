@@ -1,12 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
+
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-family: 'Hubballi', cursive;
+    font-size: 18px;
 }
 
 .container {
     border: 1px solid black;
+    padding: 20px;
+    margin-top: 20vh;
+}
+
+.title {
+    text-shadow: 0.5px 0.5px 4px rgba(0, 0, 0, 0.315);
 }
 
 .done {
     text-decoration: line-through;
+}
+
+.delete {
+    font-size: 0.5em;
+    margin-left: 10px;
+    vertical-align: 10%;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(221, 221, 221);
+    cursor: pointer;
+}
+
+.delete:hover {
+    background-color: rgb(95, 95, 95);
+    color: white;
 }
